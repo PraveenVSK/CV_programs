@@ -1,3 +1,12 @@
+# https://github.com/UB-Mannheim/tesseract/wiki
+# pip install opencv-python-headless
+# pip install numpy
+# pip install pytesseract
+
+
+
+
+
 # License Plate Detection using Contours + Tesseract
 import cv2
 import numpy as np
@@ -82,3 +91,4 @@ def extract_plate(image_path):
 
 # Run detection
 extract_plate(r"C:\CV Programs\ex5\cars.jpeg")  # Update image path
+
